@@ -1,3 +1,5 @@
+#het zijn drie aparte: eerste met teller, tweede met zoektocht naar grootste aantal inwoners
+# en derde heeft dan nog een sortering op het einde
 print('Top 50 cities in USA')
 with open('US cities.csv') as file:
     line = file.readline().rstrip()
