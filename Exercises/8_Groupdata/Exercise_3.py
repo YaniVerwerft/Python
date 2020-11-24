@@ -17,5 +17,5 @@ with open('weather_2018 10.csv', encoding='UTF-8') as file:
             record = line.split(';')
             split_first_field = record[0].split(' ')
         average = total_temperature / amount_counter
-        print(indicator, 'number of measurements = ', amount_counter,'/taverage = ',average)
+        print(indicator, 'number of measurements = ', amount_counter,'\taverage = ',average)
     print('>' * 75)
