@@ -19,3 +19,5 @@ with open('weather_2018 10.csv', encoding='UTF-8') as file:
         average = total_temperature / amount_counter
         print(indicator, 'number of measurements = ', amount_counter,'\taverage = ',average)
     print('>' * 75)
+
+
